@@ -506,6 +506,20 @@ img {
   width: 70%;
 }
 
+.skills_close .skills_list {
+  height: 0;
+  overflow: hidden;
+}
+
+.skills_open .skills_list {
+  height: max-content;
+  margin-bottom: var(--mb-2-5);
+}
+
+.skills_open .skills_arrow {
+  transform: rotate(-180deg);
+}
+
 /*==================== QUALIFICATION ====================*/
 
 
