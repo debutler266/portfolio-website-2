@@ -94,3 +94,40 @@ const tabs = document.querySelectorAll('[data-target]'),
       })
     })
   })
+
+
+  //Swiper js
+  let swiperPortfolio = new Swiper('.portfolio_container', {
+    cssMode: true,
+    loop: true,
+
+     navigation: {
+      nextEl: 'swiper-button-next',
+     prevEl: 'swiper-button-prev',
+    },
+  pagination: {
+      el: 'swiper-pagination',
+     clickable: true,
+  },
+});
+
+
+   //Swiper js (testimonial)
+   let swiperTestimonial = new Swiper('.testimonial_container', {
+     cssMode: true,
+     loop: true,
+     grabCursor: true,
+     spaceBetween: 48,
+
+
+   pagination: {
+       el: 'swiper-pagination',
+      clickable: true,
+      dynamicBullets: true,
+   },
+   breakpoints: {
+     568: {
+       slidesPerView: 2,
+     }
+   }
+    });
