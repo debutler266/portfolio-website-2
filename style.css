@@ -90,7 +90,8 @@ body.dark-theme {
 
 .change-theme {
   font-size: 1.25rem;
-  color: var(--title-color);
+  /*color: var(--title-color);*/
+  color: #222;
   margin-right: var(--mb-1);
   cursor: pointer;
 }
@@ -155,6 +156,10 @@ img {
   text-align: center;
 }
 
+.line-break {
+  color: #111;
+}
+
 /*==================== LAYOUT ====================*/
 
 .container {
@@ -189,7 +194,8 @@ img {
 
 .nav_logo,
 .nav_toggle {
-  color: var(--title-color);
+  /*color: var(--title-color);*/
+  color: #222;
   font-weight: var(--font-medium);
 }
 
@@ -528,34 +534,34 @@ img {
 }
 
 .skills_js {
-  width: 55%;
+  width: 65%;
 }
 
 .skills_react {
   width: 50%;
 }
 
-.skills_php {
-  width: 10%;
+.skills_php /*Ruby*/ {
+  width: 70%;
 }
 
-.skills_node {
-  width: 60%;
+.skills_node /*Express*/ {
+  width: 75%;
 }
 
 .skills_firebase {
+  width: 65%;
+}
+
+.skills_python /* JS backend */ {
   width: 60%;
 }
 
-.skills_python {
-  width: 10%;
+.skills_figma /*Bootstrap*/ {
+  width: 95%;
 }
 
-.skills_figma {
-  width: 30%;
-}
-
-.skills_sketch {
+.skills_sketch /*Figma*/ {
   width: 60%;
 }
 
@@ -1330,6 +1336,15 @@ img {
 
   .contact_form {
     width: 460px;
+  }
+
+  .contact_information {
+    margin-left: 20rem;
+    margin-bottom: 4.5rem;
+  }
+
+  .contact_subtitle:hover {
+    color: #ffffff;
   }
 
   .contact_inputs {
