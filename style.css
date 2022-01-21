@@ -1097,7 +1097,9 @@ img {
   }
 
   .testimonial_icon-star {
-    align-items: baseline;
+    align-items: center;
+    justify-content: center;
+
   }
 }
 
