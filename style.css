@@ -1095,6 +1095,10 @@ img {
   .resume-button {
     text-align: center;
   }
+
+  .testimonial_icon-star {
+    font-size: 10px;
+  }
 }
 
 
