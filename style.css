@@ -1089,6 +1089,15 @@ img {
   }
 }
 
+
+
+@media screen and (max-width: 425px) {
+  .resume-button {
+    font-size: 10px;
+  }
+}
+
+
 /* For medium devices */
 @media screen and (min-width: 568px) {
   .home_content {
