@@ -1093,7 +1093,7 @@ img {
 
 @media screen and (max-width: 425px) {
   .resume-button {
-    font-size: 10px;
+    text-align: center;
   }
 }
 
